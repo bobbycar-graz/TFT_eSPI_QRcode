@@ -6,7 +6,7 @@ namespace qrcode {
 class QRcode
 {
 	private:
-		void render(int x, int y, int color);
+        void render(int x, int y, int color, int borderOffset=0);
         int multiply{5};
         int m_tmpmult;
 
